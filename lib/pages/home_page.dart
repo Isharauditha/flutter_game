@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    _secretNumber = _random.nextInt(3) + 1; // Generates a random secret number
+    _secretNumber = _random.nextInt(10) + 1; // Generates a random secret number
   }
 
   void checkGuess() {
