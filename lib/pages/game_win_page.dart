@@ -77,7 +77,7 @@ class GameWinPage extends StatelessWidget {
             height: 20,
           ),
 
-          // Strat new gameR button
+          // Start new game button
           MyButton(
             text: "Start the Game Again",
             color: Colors.green,

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../widgets/my_button.dart';
 import 'home_page.dart';
 
@@ -77,7 +76,7 @@ class GameOverPage extends StatelessWidget {
             height: 20,
           ),
 
-          // Strat new game button
+          // Start new game button
           MyButton(
             text: "Start the Game Again",
             color: Colors.red,
