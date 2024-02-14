@@ -80,6 +80,7 @@ class GameOverPage extends StatelessWidget {
           MyButton(
             text: "Start the Game Again",
             color: Colors.red,
+            foregroundColor: Colors.black,
             onpressed: () => Navigator.of(context).push(
               MaterialPageRoute(
                 builder: (context) => const HomePage(),

@@ -201,6 +201,7 @@ class _HomePageState extends State<HomePage> {
             MyButton(
               text: "Submit",
               color: Colors.blue,
+              foregroundColor: Colors.white,
               onpressed: checkGuess,
             ),
           ],

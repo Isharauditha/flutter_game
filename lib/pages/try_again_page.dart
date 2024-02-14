@@ -59,6 +59,7 @@ class TryAgainPage extends StatelessWidget {
           MyButton(
             text: "Try Again",
             color: Colors.yellow,
+            foregroundColor: Colors.black,
             onpressed: () => Navigator.of(context).pop(),
           ),
         ],
